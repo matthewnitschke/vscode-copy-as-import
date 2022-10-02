@@ -1,6 +1,8 @@
-# vscode-copy-as-import
+# Dart Copy as Import
 
-Provides context menu actions in the editor and explorer to copy dart files as their `import 'package:<packageName>/<path>.dart'` format
+Provides context menu actions in the editor and explorer to copy dart files as their `import 'package:<packageName>/<path>.dart'` format.
+
+This package is specifically helpful over something like [Copy import](https://marketplace.visualstudio.com/items?itemName=billjohnston4.copy-import), due to it being specific to dart, and auto populating the package name in `pubspec.yaml`
 
 ## Features
 

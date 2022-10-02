@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
 		: undefined;
 
 	let disposable = vscode.commands.registerCommand(
-		'copy-as-import.copy', 
+		'dart-copy-as-import.copy', 
 		(fileUri: vscode.Uri) => {
 			if (!workspaceRoot) {
 				vscode.window.showErrorMessage('Unable to find pubspec.yaml, cannot copy file as import.');
